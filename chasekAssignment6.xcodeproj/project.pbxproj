@@ -14,6 +14,8 @@
 		05947CEE1B04092F002E259A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05947CED1B04092F002E259A /* Images.xcassets */; };
 		05947CF11B04092F002E259A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 05947CEF1B04092F002E259A /* LaunchScreen.xib */; };
 		05947CFD1B04092F002E259A /* chasekAssignment6Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05947CFC1B04092F002E259A /* chasekAssignment6Tests.swift */; };
+		05947D071B053129002E259A /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05947D061B053129002E259A /* ThirdViewController.swift */; };
+		05947D091B054D2A002E259A /* configDto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05947D081B054D2A002E259A /* configDto.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +40,8 @@
 		05947CF61B04092F002E259A /* chasekAssignment6Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = chasekAssignment6Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		05947CFB1B04092F002E259A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		05947CFC1B04092F002E259A /* chasekAssignment6Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chasekAssignment6Tests.swift; sourceTree = "<group>"; };
+		05947D061B053129002E259A /* ThirdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		05947D081B054D2A002E259A /* configDto.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = configDto.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +90,8 @@
 				05947CED1B04092F002E259A /* Images.xcassets */,
 				05947CEF1B04092F002E259A /* LaunchScreen.xib */,
 				05947CE21B04092F002E259A /* Supporting Files */,
+				05947D061B053129002E259A /* ThirdViewController.swift */,
+				05947D081B054D2A002E259A /* configDto.swift */,
 			);
 			path = chasekAssignment6;
 			sourceTree = "<group>";
@@ -216,7 +222,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				05947CE91B04092F002E259A /* SecondViewController.swift in Sources */,
+				05947D091B054D2A002E259A /* configDto.swift in Sources */,
 				05947CE51B04092F002E259A /* AppDelegate.swift in Sources */,
+				05947D071B053129002E259A /* ThirdViewController.swift in Sources */,
 				05947CE71B04092F002E259A /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
